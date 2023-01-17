@@ -17,11 +17,12 @@ class addnote extends StatelessWidget {
         backgroundColor: Colors.indigo[900],
       ),
       body: Container(
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const SizedBox(
-              height: 10,
-            ),
+            // const SizedBox(
+            //   height: 10,
+            // ),
             Container(
               decoration: BoxDecoration(border: Border.all()),
               child: TextField(
